@@ -1,0 +1,8 @@
+Câu 4:  Khi ứng dụng đang chạy và người sử dụng bấm vào nút back sau đó mở lại ứng dụng:
+onPause --> onStop --> onDestroy --> onCreate --> on Start --> onResume
+
+Câu 5: Khi ứng dụng đang chạy và người sử dụng bấm vào nút home và sau đó mở lại ứng dụng:
+onPause --> onStop --> onRestart --> onStart --> onResume
+
+Câu 6: Nếu cần lưu thông tin của ứng dụng để khôi phục lại trạng thái hiển thị của ứng dụng
+khi chạy lại ứng dụng thì cần phải thực hiện trong phương thức vòng đời.
